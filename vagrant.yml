@@ -29,8 +29,8 @@
             - zsh
         become: true
 
-       name: Install PHP
-        apt: update_cache=yes
+      - name: Install PHP
+        apt:
           pkg:
             - php7.4
             - php7.4
@@ -57,7 +57,7 @@
         become: true
         apt:
           pkg:
-            apache2
+            - apache2
 
       - name: Install Mysql
         become: true
