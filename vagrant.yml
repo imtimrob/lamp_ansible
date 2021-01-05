@@ -14,7 +14,7 @@
         apt: upgrade=full
         become: true
 
-      - name: Install system utilities
+      - name: Install System Utilities
         apt: 
           pkg:
             - ca-certificates
@@ -29,13 +29,8 @@
             - zsh
         become: true
 
-      - name: Update Apt Cache
+       name: Install PHP
         apt: update_cache=yes
-        become: true
-
-      - name: Install php
-        apt: update_cache=yes
-        apt:
           pkg:
             - php7.4
             - php7.4
@@ -58,7 +53,7 @@
             - php7.4-zip  
         become: true
 
-      - name: Install apache
+      - name: Install Apache
         become: true
         apt:
           pkg:
@@ -75,5 +70,7 @@
         apt: 
           autoremove: yes
         become: true
-            
+           
+      - name: Say Done
+        debug: msg="LAMP Packages Installed"
 ...
