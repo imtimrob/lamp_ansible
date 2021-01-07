@@ -18,7 +18,7 @@ Once you have repository cloned locally:
     
 3. upgrade pip 
 
-    pip install -U pip
+    pip install -U pip wheel
     
 4. Install Ansible with pip
 
