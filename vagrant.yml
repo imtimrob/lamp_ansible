@@ -23,6 +23,7 @@
             - curl
             - git
             - net-tools
+            - npm
             - python3
             - vim
             - unzip
