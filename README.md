@@ -7,6 +7,7 @@
 *Requires Virtualbox and Vagrant installed then install Ansible in Python Virtual environment as follows
 
 https://www.virtualbox.org
+
 https://www.vagrantup.com
 
 
