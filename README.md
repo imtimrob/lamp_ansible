@@ -6,6 +6,11 @@
 
 *Requires Virtualbox and Vagrant installed then install Ansible in Python Virtual environment as follows
 
+https://www.virtualbox.org
+https://www.vagrantup.com
+
+
+
 Once you have repository cloned locally:
 
 1. Create a Python virtual environment
@@ -29,7 +34,7 @@ Once you have repository cloned locally:
     change line "private_key_file =" with path to keyfile
     on mac you probably only need to change the username /Users/$userName/.vagrant.d/insecure_private_key
     
-    * This needs to be converted to a secure ssh key, but this is fine for development
+    * Key should to be converted to a secure ssh key, but this is fine for development
 
 
 6. Start Vagrant
@@ -51,3 +56,10 @@ when it finishes point a browser at http://localhost:8080
     mysql_secure_installation
     
     * planning to add this step to ansible
+
+
+From there the vagrant.yml file can be edited with additional packages and configurations.
+If you want to use seperate .yml files for each configuration, just add 'import fileName.yml'
+to the end of 'vagrant.yml'.
+
+Then use 'vagrant provision' for running containers
