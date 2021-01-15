@@ -51,8 +51,8 @@ Once you have repository cloned locally:
     
 	vagrant.yml is the main provision file for ansible.
 
-	This will install some basic utilities, then install PHP Apache2 and Mysql
-	when it finishes point a browser at http://localhost:8080
+	This will install some basic utilities, then install PHP Apache2 and Mysql.
+	When it completes point a browser at http://localhost:8080
 
 7. login with vagrant ssh
     
