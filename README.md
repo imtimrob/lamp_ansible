@@ -1,6 +1,7 @@
 # lamp_ansible
 
-This will setup a new ubuntu/focal64 VM via Vagrant/Virtualbox.
+This will setup a new ubuntu/focal64 VM via Vagrant/Virtualbox that will include a basic LAMP install.
+
 *Requires Virtualbox and Vagrant installed. 
 *Install Ansible in Python Virtual environment as follows
 
