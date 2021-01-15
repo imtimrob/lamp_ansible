@@ -1,7 +1,7 @@
 # lamp_ansible
 #
 ## TODO
-* Add Files for Apache website
+* Add specific files for an Apache hosted website via ansible
 * Add Secure Mysql configuration via ansible
 
 *Requires Virtualbox and Vagrant installed then install Ansible in Python Virtual environment as follows
