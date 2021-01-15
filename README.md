@@ -49,10 +49,10 @@ Once you have repository cloned locally:
     This will automatically download vagrant box ubuntu/focal64 which might take a while.
     After it finishes the box will always be available for new vms
     
-vagrant.yml is the main provision file for ansible.
+	vagrant.yml is the main provision file for ansible.
 
-This will install some basic utilities, then install PHP Apache2 and Mysql
-when it finishes point a browser at http://localhost:8080
+	This will install some basic utilities, then install PHP Apache2 and Mysql
+	when it finishes point a browser at http://localhost:8080
 
 7. login with vagrant ssh
     
