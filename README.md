@@ -1,14 +1,18 @@
 # lamp_ansible
-#
-## TODO
-* Add Files for Apache website
-* Add Secure Mysql configuration via ansible
 
-*Requires Virtualbox and Vagrant installed then install Ansible in Python Virtual environment as follows
+This will setup a new ubuntu/focal64 VM via Vagrant/Virtualbox that will include a basic LAMP install.
+
+*Requires Virtualbox and Vagrant installed. 
+*Install Ansible in Python Virtual environment as follows
 
 https://www.virtualbox.org
 
 https://www.vagrantup.com
+
+## TODO
+* Add specific files for an Apache hosted website via ansible
+* Add Secure Mysql configuration via ansible
+
 
 
 
