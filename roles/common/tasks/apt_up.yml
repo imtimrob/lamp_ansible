@@ -1,0 +1,10 @@
+---
+- name: Update Apt cache
+  apt: update_cache=yes
+  become: true
+
+- name: Upgrade installed Packages
+  apt: upgrade=full
+  become: true
+...
+

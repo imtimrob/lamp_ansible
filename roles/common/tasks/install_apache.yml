@@ -1,0 +1,7 @@
+---
+- name: Install Apache Webserver
+  apt:
+    pkg:
+     - apache2
+  become: true
+...

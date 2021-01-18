@@ -1,0 +1,16 @@
+---
+- name: Install System Utilities
+  apt:
+    pkg:
+      - ca-certificates
+      - apt-transport-https
+      - lsb-release
+      - curl
+      - net-tools
+      - npm
+      - python3
+      - vim
+      - unzip
+      - zsh
+  become: true
+...

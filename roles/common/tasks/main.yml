@@ -1,0 +1,10 @@
+---
+- include: hello_ansible.yml
+- include: ping.yml
+- include: apt_up.yml
+- include: basic_utils.yml
+- include: install_apache.yml
+- include: install_mysql.yml
+- include: cleanup_pkgs.yml
+- include: say_done.yml
+...

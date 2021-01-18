@@ -1,0 +1,6 @@
+---
+- name: Cleanup Unused Packages
+  apt:
+    autoremove: yes
+  become: true
+...
