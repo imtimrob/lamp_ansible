@@ -63,8 +63,8 @@ Once you have repository cloned locally:
     * planning to add this step to ansible
 
 
-From there the vagrant.yml file can be edited with additional packages and configurations.
-If you want to use seperate .yml files for each configuration, just add 'import fileName.yml'
-to the end of 'vagrant.yml'.
+From there the vagrant.yml file can be edited with additional roles.
+If you want to add new tasks, just add '- include: fileName.yml'
+to the end of 'roles/common/tasks/main.yml'.
 
 Then use 'vagrant provision' for running containers
