@@ -12,7 +12,7 @@ https://www.vagrantup.com
 ## TODO
 * Add specific files for an Apache hosted website via ansible
 * Add Secure Mysql configuration via ansible
-
+* Add phpmyadmin installation. Figure out how to set options via ansible
 
 
 
