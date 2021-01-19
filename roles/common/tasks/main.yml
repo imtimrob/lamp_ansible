@@ -5,6 +5,7 @@
 - include: basic_utils.yml
 - include: install_apache.yml
 - include: install_mysql.yml
+- include: install_php.yml
 - include: cleanup_pkgs.yml
   #- include: new_user.yml
 - include: say_done.yml
