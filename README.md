@@ -14,7 +14,7 @@ https://www.vagrantup.com
 * Add Secure Mysql configuration via ansible
 * Add phpmyadmin installation. Figure out how to set options via ansible
 
-
+## Installation
 
 Once you have repository cloned locally:
 
