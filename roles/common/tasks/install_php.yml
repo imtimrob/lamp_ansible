@@ -20,7 +20,7 @@
       - php7.4-pgsql
       - php7.4-phpdbg
       - php7.4-zip
+      - libapache2-mod-php
   become: true
-
 
 ...

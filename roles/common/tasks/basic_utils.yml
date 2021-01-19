@@ -1,6 +1,6 @@
 ---
 - name: Install System Utilities
-  apt:
+  apt: 
     pkg:
       - ca-certificates
       - apt-transport-https
@@ -13,4 +13,6 @@
       - unzip
       - zsh
   become: true
+   
 ...
+
